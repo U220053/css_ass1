@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d8da3d;
+  color: #80007e;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+h2 {
+  margin-left: 10px;
+}
+.box {
+  height: 50px;
+  background-color: white;
+  margin-bottom: 20px;
+  position: relative;
+}
+.black-box {
+  position: absolute;
+  top: 0;
+  right: -2px; /* Positioning the black box */
+  width: 20px;
+  height: 100%;
+  background-color: black;
+}
+.container {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+  gap: 50px;
+}
+.container_head {
+  margin-top: 20px;
+}
+.head_style {
+  display: grid;
+}
+.dotted-line {
+  border-bottom: 1px dotted #80007e;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
