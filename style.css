@@ -1,17 +1,20 @@
+/* Body styles */
 body {
   font-family: Arial, sans-serif;
   background-color: #d8da3d;
   color: #80007e;
 }
-
+/* Header 1 styles */
 h1 {
   font-size: 50px;
   margin-top: 0px;
   margin-bottom: 50px;
 }
+/* Header 2 styles */
 h2 {
   margin-left: 10px;
 }
+/* Box styles */
 .box {
   height: 50px;
   background-color: white;
@@ -32,20 +35,25 @@ h2 {
   grid-template-columns: 0.2fr 1fr;
   gap: 50px;
 }
+/* Header container styles */
 .container_head {
   margin-top: 20px;
 }
 .head_style {
   display: grid;
 }
+/* Dotted line styles */
 .dotted-line {
   border-bottom: 1px dotted #80007e;
   margin-top: 50px;
   margin-bottom: 10px;
 }
-
+/* Paragraph styles */
 p {
   text-align: left;
   font-size: 20px;
   margin-bottom: 40px;
+}
+.foot {
+  margin-bottom: 0px;
 }
